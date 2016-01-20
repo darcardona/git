@@ -1,0 +1,5 @@
+Default configuration files for git repositories
+
+.gitconfig
+.gitignore_global
+.gitmessage

@@ -1,0 +1,35 @@
+[push]
+  default = simple
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[alias]
+  a = add
+  ap = add -p
+  l = log
+  ll = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue [%cn]%Creset' --abbrev-commit --date=relative
+  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  log-clean = log --no-merges
+  lc = log --no-merges
+  log-merges = log --merges
+  lm = log-merges
+  filelog = log -u
+  fl = log -u
+  dc = diff --cached
+  dt = difftool
+  dw = diff --word-diff
+  co = checkout
+  cob = checkout -b
+  ci = commit
+  br = branch
+  cl = clone
+  st = status -s
+  pr = pull --rebase
+  rbi = rebase --interactive
+
+[user]
+  name = Andres Postiglioni
+
+[commit]
+  template = ~/.gitmessage.txt

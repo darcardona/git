@@ -1,0 +1,18 @@
+[ticket number] Subject line
+
+# Message body:
+Explain what happened and why
+
+# General guidelines
+#
+# 1. Use the imperative mood in the subject line ("Fix bug", not "Fixed bug")
+# 2. Prefix the subject line with the ticket number, if any
+# 3. Capitalize the subject line
+# 4. Do not end the subject line with a period
+# 5. Keep the subject line around 50 characters wide, no more than 72
+# 6. Separate subject from body with a blank line
+# 7. Use the body to explain what and why vs. how
+# 8. Wrap the body at 72 characters
+#
+# References:
+# * http://chris.beams.io/posts/git-commit/#seven-rules
